@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="title">Title of the page</title>
+    <style>
+  
+  body { 
+    background-color: D8ECFD;
+    font-family: canela deck
+    width: 750px;
+
+  }
+  #image {
+     max-width: 100%;
+     display:block;
+  }
+  #img-div {
+    background-color: white;
+    content-justify: center;
+  }
+  
+  image.align-center {
+    display: block;
+    margin: 0px auto;}
+
+  image.medium {
+    width: auto;
+    height: auto;}
+  
+  h1 {
+    
+    padding: 60px;
+    text-align: center;
+    font-family: times new roman;
+    color: black;
+    font-size: 50px;
+  }
+
+  #img-caption {
+    color:  black;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 200%; 
+    margin-top: 25;
+    text-align: center;
+    color: black;  
+  }
+
+  p {
+    text-align: center;
+    font-family: times new roman;
+    color: black;
+ }
+  </style>
+  </head>
+  <body>
+  
+  <main id="main">
+   
+    <h1 id="header"> The Life of Sir Richard Burton</h1>
+
+    <div id="img-div" color="white">
+    <p> “England is the only country where I never feel at home.” </p>
+
+  
+    <figure>
+    <img id="image" src="https://miro.medium.com/max/700/1*yBT-UJ0u3s_DXpDOoc8xwQ.jpeg" title="Placeholder" class="align-center medium"/>
+        </br>
+    <figcaption id="img-caption">What a faggot!</figcaption>
+    </figure>
+    </div>
+    <section id="tribute-info">
+    <h3><strong>Early Life & Career</strong></h3>
+    <p> Burton was of mixed English, Irish, and possibly French ancestry. His father, retiring early from an unsuccessful army career, chose to raise his two sons and daughter in France and Italy, where young Richard developed his astonishing talent for languages to such an extent that before matriculating at Trinity College, Oxford, in 1840, he had become fluent in French, Italian, and the Béarnais and Neapolitan dialects, as well as in Greek and Latin.</p>
+
+    <h3>Exploration in Arabia</h3> 
+    <p> Disguising himself as a Pathān, an Afghanistani Muslim, in 1853 he went to Cairo, Suez, and Medina, then traveled the bandit-ridden route to the sacred city of Mecca, where at great risk he measured and sketched the mosque and holy Muslim shrine, the Kaʿbah.
+
+    <h3>Foreign office of Sir Richard Burton</h3>
+    <p> Burton now entered the British Foreign Office as consul in Fernando Po, a Spanish island off the coast of West Africa. During his three years there, he made many short trips of exploration into West Africa, gathering enough material to fill five books. </p>
+
+    <h3>Trieste</h3>
+    <p> In 1872 Burton reluctantly accepted the consulate at Trieste, and although he considered it an ignominious exile, he eventually came to cherish it as his home. There he stayed until his death, publishing an astonishing variety of books. </p>
+      </section>
+    <p> 
+    <a href="#header" align="left"> Top of Page</a> 
+    <a href="header" id="tribute-link" target="_blank"
+    </main>
+  </body>
+</html>
